@@ -1,4 +1,4 @@
-<%@page import="java.time.LocalDateTime"%>
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,8 +8,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%@ include file="header.jsp" %>
+	<%
+		response.setIntHeader("Refresh", 5);
+	%>
+	<%= new Date() %>
 	
-	현재 시간: <%= LocalDateTime.now() %>
+	<br>
+	<a href="response_data.jsp">구글 홈페이지로 이동하기</a>
 </body>
 </html>

@@ -1,4 +1,3 @@
-<%@page import="java.time.LocalDateTime"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -8,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%@ include file="header.jsp" %>
-	
-	현재 시간: <%= LocalDateTime.now() %>
+	<form action="request_process.jsp" method="get">
+		<p>아이디: <input type="text" name="id"></p>
+		<p>비밀번호: <input type="text" name="pw"></p>
+		<button type="submit">전송</button>
+	</form>
 </body>
 </html>

@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h4>구구단 출력하기</h4>
+	<jsp:include page="include_data.jsp">
+		<jsp:param value="5" name="num"/>
+	</jsp:include>
 </body>
 </html>

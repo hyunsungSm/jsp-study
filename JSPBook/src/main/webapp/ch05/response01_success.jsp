@@ -1,14 +1,13 @@
+<%@page import="java.util.Enumeration"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>구구단 출력하기</title>
+<title>Implicit Objects</title>
 </head>
 <body>
-	<jsp:forward page="forward_data.jsp">
-		<jsp:param value="5" name="num"/>
-	</jsp:forward>
+	로그인을 성공했습니다!!
 </body>
 </html>

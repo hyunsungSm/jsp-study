@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>구구단 출력하기</title>
+<title>Directives Tag</title>
 </head>
 <body>
-	<jsp:forward page="forward_data.jsp">
-		<jsp:param value="5" name="num"/>
-	</jsp:forward>
+	<h4>Hello, Java Server Pages.</h4>
 </body>
 </html>

@@ -7,8 +7,12 @@
 <title>구구단 출력하기</title>
 </head>
 <body>
-	<jsp:forward page="forward_data.jsp">
-		<jsp:param value="5" name="num"/>
-	</jsp:forward>
+	<%
+		int num = Integer.parseInt(request.getParameter("num"));
+	
+		for (int i = 1; i <= 9; i++){
+			out.println(num + " * " + i + " = " + num * i + "<br>");
+		}
+	%>
 </body>
 </html>
