@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>도서 등록</title>
 </head>
 <body>
 	<!-- 신규 도서 등록 처리 페이지 만들기 -->
@@ -63,6 +63,5 @@
 		// 5. books.jsp 페이지로 강제 이동하도록 작성
 		response.sendRedirect("books.jsp");
 	%>
-	
 </body>
 </html>
