@@ -10,7 +10,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 
-public class InitParamFilter implements Filter{
+public class InitParamFilter implements Filter {
 	private FilterConfig filterConfig = null;
 	
 	@Override
@@ -50,5 +50,5 @@ public class InitParamFilter implements Filter{
 	public void destroy() {
 		System.out.println("InitParamFilter 해제...");
 	}
-	
+
 }
