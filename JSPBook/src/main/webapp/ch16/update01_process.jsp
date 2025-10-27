@@ -16,7 +16,7 @@
 		String passwd = request.getParameter("passwd");
 		String name = request.getParameter("name");
 		
-		ResultSet rs = null;
+		// ResultSet rs = null;
 		Statement stmt = null;
 		
 		try {
